@@ -1,6 +1,7 @@
 from chat_downloader import ChatDownloader
 import json
 import sys
+import codecs
 
 url = sys.argv[1]
 chat = ChatDownloader().get_chat(url, message_groups=[
@@ -12,4 +13,4 @@ for message in chat:
     chat_json.append(message)
 
 with codecs.open(sys.argv[2], 'w', 'utf_8') as ft:
-    json.dump(ft)
+    json.dump(chat_json, ft)
