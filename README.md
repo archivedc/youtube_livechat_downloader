@@ -1,4 +1,6 @@
 # YouTube Live Chat Download/Converter
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farchivedc%2Fyoutube_livechat_downloader.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Farchivedc%2Fyoutube_livechat_downloader?ref=badge_shield)
+
 
 ## Usage
 
@@ -22,3 +24,6 @@ $ python jsonchat_tocsv.py <Json File> <Destination>
 ```
 
 This will convert json live chat data to csv file.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farchivedc%2Fyoutube_livechat_downloader.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Farchivedc%2Fyoutube_livechat_downloader?ref=badge_large)
